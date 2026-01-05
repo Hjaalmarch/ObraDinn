@@ -12,6 +12,22 @@ body {
   img {
   border: 2px solid #e5ffff;
 }
+  {
+  box-sizing: border-box;
+}
+
+column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 </style>
     
 <title>Lost at Sea, 1803</title>
@@ -30,35 +46,15 @@ body {
 
   <p>In 1802, the merchant ship Obra Dinn set out from London for the Orient with over 200 tons of trade goods. Six months later it hadn't met its rendezvous point at the Cape of Good Hope and was declared lost at sea. Early this morning of October 14th, 1807, the Obra Dinn drifted into port at Falmouth with damaged sails and no visible crew. As insurance investigator for the East India Company's London Office, dispatch immediately to Falmouth, find means to board the ship, and prepare an assessment of damages (note 1).</p>
 
-  <style>
-  <style>
-* {
-  box-sizing: border-box;
-}
+  <p>The player is the insurance investigator tasked by not only the East India Company but also Henry Evans, a former crewmember of the ship, to discover what befell the people on board. Evans grants the player a logbook journal as well as a <i>Memento Mortem</i> pocketwatch to view the last moments of the passengers and crew. There are 60 fates to be explored. The voyage is split into ten chapters which tell a linear story in a non-linear fashion.</p>
 
-.column {
-  float: center;
-  width: 50%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
-</style>
   <div class="row">
   <div class="column">
-    <img src="Catalogue.png" alt="Logbook Title Page" style="width="50%">
+    <img src="Catalogue.png" alt="Logbook Title Page" style="width="48%">
   </div>
   <div class="column">
-    <img src="Pocketwatch.png" alt="Memento Mortem pocketwatch" style="width="50%">
+    <img src="Pocketwatch.png" alt="Memento Mortem pocketwatch" style="width="48%">
   </div>
-  
-  <p>The player is the insurance investigator tasked by not only the East India Company but also Henry Evans, a former crewmember of the ship, to discover what befell the people on board. Evans grants the player a logbook journal as well as a <i>Memento Mortem</i> pocketwatch to view the last moments of the passengers and crew. There are 60 fates to be explored. The voyage is split into ten chapters which tell a linear story in a non-linear fashion.</p>
 
   <p>At its core, <i>Obra Dinn</i> is an adventure that pairs exploration and observations with logical deductions. Clues can and will be both auditory and visual. Each scene starts with a ending snippet of a conversation had before a death occurs, as seen in the first scene:</p>
 
@@ -75,6 +71,7 @@ body {
 </body>
   </div>
 </html>
+
 
 
 
